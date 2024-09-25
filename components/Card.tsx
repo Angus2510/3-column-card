@@ -22,7 +22,7 @@ const Card = () => {
           Choose a sedan for its affordability and excellent fuel economy. Ideal
           for cruising in the city or on your next road trip.
         </p>
-        <button className="py-2 px-4 bg-white rounded-full mt-12 ml-8 mb-10">
+        <button className="py-2 px-4 bg-white rounded-full mt-12 ml-8 mb-10 hover:bg-transparent hover:border-white hover:text-white">
           Learn More
         </button>
       </div>
@@ -44,11 +44,11 @@ const Card = () => {
           Take an SUV for its spacious interior, power, and versatility. Perfect
           for your next family vacation and off-road adventures.
         </p>
-        <button className="py-2 px-4 bg-white rounded-full mt-12 ml-8 mb-10">
+        <button className="py-2 px-4 bg-white rounded-full mt-12 ml-8 mb-10 hover:bg-transparent hover:border-white hover:text-white">
           Learn More
         </button>
       </div>
-      <div className="bg-cyan-900 w-80 rounded-r-lg">
+      <div className="bg-cyan-900 w-80 rounded-r-lg sm:rounded-b-lg">
         <div className="ml-8 mt-8">
           <svg width="64" height="40" xmlns="http://www.w3.org/2000/svg">
             <g fill="none" fill-rule="evenodd">
@@ -66,7 +66,7 @@ const Card = () => {
           Cruise in the best car brands without the bloated prices. Enjoy the
           enhanced comfort of a luxury rental and arrive in style.
         </p>
-        <button className="py-2 px-4 bg-white rounded-full mt-12 ml-8 mb-10">
+        <button className="py-2 px-4 bg-white rounded-full mt-12 ml-8 mb-10 hover:bg-transparent border-white hover:text-white">
           Learn More
         </button>
       </div>
